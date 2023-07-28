@@ -4,11 +4,18 @@ import "./navigation.styles.scss";
 const Navigation = () => {
   return (
     <nav className="header-navigation">
-      <Link className="logo">MyShop</Link>
+      <Link to="/" className="logo">
+        MyShop
+      </Link>
       <ul className="nav-container">
         <li>
           <Link className="nav-link" to="/shop">
             SHOP
+          </Link>
+        </li>
+        <li>
+          <Link className="nav-link" to="/sign-in">
+            SIGN IN
           </Link>
         </li>
       </ul>
