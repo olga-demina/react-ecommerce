@@ -1,0 +1,29 @@
+.header-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .logo {
+    font-size: 3rem;
+  }
+
+  ul.nav-container {
+    list-style-type: none;
+
+    .nav-link {
+      padding: 0.6rem 1.2rem;
+      transition: all 0.3s;
+
+      &:hover {
+        background-color: #2f4f4f;
+        color: #fefefe;
+      }
+    }
+  }
+}
